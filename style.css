@@ -1,0 +1,36 @@
+.container{
+  border: 0px solid black;
+}
+.row{
+  border: 0px solid red;
+}
+.col{
+  border: 0px solid green;
+}
+body{
+  background-color: gray;
+}
+#header{
+  background: orange;
+  padding: 10px 0 10px 10px;
+}
+#menu{
+  background: palegoldenrod;
+  padding: 3px 0px;
+}
+#menu ul{
+  list-style: none;
+  margin: 0%;
+}
+#menu ul li{
+  display: inline-block;
+}
+#content{
+  background: white;
+}
+#side-bar{
+  background:lightblue ;
+}
+#footer{
+  background: orange;
+}
