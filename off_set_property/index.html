@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
+
   <body>
     <div class="container">
       <div class="row">
@@ -29,7 +30,7 @@
       </div>
     </div>
     <!-- Reordering -->
-    <br><br>
+    <br /><br />
     <div class="container">
       <div class="row">
         <div class="col orange order-last">Col 1</div>
@@ -38,8 +39,8 @@
         <div class="col blue">Col 4</div>
       </div>
     </div>
-        <!-- Reordering with break Points -->
-    <br><br>
+    <!-- Reordering with break Points -->
+    <br /><br />
     <div class="container">
       <div class="row">
         <div class="col orange order-md-last">Col 1</div>
@@ -48,25 +49,344 @@
         <div class="col blue">Col 4</div>
       </div>
     </div>
-        <!-- Reordering with numbers  -->
-        <br><br>
-        <div class="container">
+    <!-- Reordering with numbers  -->
+    <br /><br />
+    <div class="container">
+      <div class="row">
+        <div class="col orange order-4">Col 1</div>
+        <div class="col pink order-3">Col 2</div>
+        <div class="col green order-2">Col 3</div>
+        <div class="col blue order-1">Col 4</div>
+      </div>
+    </div>
+    <!-- Reordering with numbers as well as Break Points  -->
+    <br /><br />
+    <div class="container">
+      <div class="row">
+        <div class="col orange order-md-4">Col 1</div>
+        <div class="col pink order-md-3">Col 2</div>
+        <div class="col green order-md-2">Col 3</div>
+        <div class="col blue order-md-1">Col 4</div>
+      </div>
+    </div>
+    <!-- Nesting  -->
+    <br /><br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 orange">
+          <h1>Main Heading</h1>
           <div class="row">
-            <div class="col orange order-4">Col 1</div>
-            <div class="col pink order-3">Col 2</div>
-            <div class="col green order-2">Col 3</div>
-            <div class="col blue order-1">Col 4</div>
+            <div class="col-md-6">
+              <h2>Sub Heading</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro
+                dolorum fuga nulla pariatur quod quas temporibus id tempore, sed
+                ipsum illo mollitia ea ipsa inventore numquam dolor harum labore
+                assumenda consequatur maiores eveniet blanditiis! Vitae, nostrum
+                quisquam. Ducimus, quisquam error.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <h2>Sub Heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint
+                rerum voluptate, fuga nostrum quibusdam eligendi cupiditate
+                necessitatibus vel harum?
+              </p>
+            </div>
           </div>
         </div>
-              <!-- Reordering with numbers as well as Break Points  -->
-              <br><br>
-              <div class="container">
-                <div class="row">
-                  <div class="col orange order-md-4">Col 1</div>
-                  <div class="col pink order-md-3">Col 2</div>
-                  <div class="col green order-md-2">Col 3</div>
-                  <div class="col blue order-md-1">Col 4</div>
-                </div>
-              </div>
+      </div>
+    </div>
+    <!-- Margin Classes  -->
+    <br /><br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 m-auto orange">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+        <div class="col-md-4 green">Col 2</div>
+      </div>
+    </div>
+    <!-- Padding Classes  -->
+    <br /><br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 p-3 orange">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+        <div class="col-md-4 p-5 green">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae atque
+          ratione facilis assumenda quas deleniti dicta quidem eaque quam!
+          Possimus sunt rerum rem harum beatae non molestiae totam quia odit?
+        </div>
+      </div>
+    </div>
+    <!-- Padding Classes with break points  -->
+    <br /><br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 p-md-3 orange">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+        <div class="col-md-4 p-md-5 green">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae atque
+          ratione facilis assumenda quas deleniti dicta quidem eaque quam!
+          Possimus sunt rerum rem harum beatae non molestiae totam quia odit?
+        </div>
+      </div>
+    </div>
+    <!-- Horizantal Alignment  -->
+    <br /><br />
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-md-3 orange">
+          <h2>Heading 1</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+        <div class="col-md-3 green">
+          <h2>Heading 2</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae atque
+          ratione facilis assumenda quas dee totam quia odit?
+        </div>
+        <div class="col-md-3 orange">
+          <h2>Heading 3</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+      </div>
+    </div>
+    <!-- Horizantal Alignment with break points  -->
+    <br /><br />
+    <div class="container">
+      <div class="row justify-content-md-around">
+        <div class="col-md-3 orange">
+          <h2>Heading 1</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+        <div class="col-md-3 green">
+          <h2>Heading 2</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae atque
+          ratione facilis assumenda quas dee totam quia odit?
+        </div>
+        <div class="col-md-3 orange">
+          <h2>Heading 3</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+      </div>
+    </div>
+    <!-- Vertical Alignment  -->
+    <br /><br />
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col-md-3 orange">
+          <h2>Heading 1</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+        <div class="col-md-3 green">
+          <h2>Heading 2</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae atque
+          ratione facilis assumenda quas dee totam quia odit?
+        </div>
+        <div class="col-md-3 orange">
+          <h2>Heading 3</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+      </div>
+    </div>
+    <!-- Vertical Alignment with break points  -->
+    <br /><br />
+    <div class="container">
+      <div class="row align-items-lg-end">
+        <div class="col-md-3 orange">
+          <h2>Heading 1</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+        <div class="col-md-3 green">
+          <h2>Heading 2</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae atque
+          ratione facilis assumenda quas dee totam quia odit?
+        </div>
+        <div class="col-md-3 orange">
+          <h2>Heading 3</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+      </div>
+    </div>
+    <!-- Align content -->
+    <br /><br />
+    <div class="container">
+      <div class="row align-content-center" style="height: 600px">
+        <div class="col-md-4 orange">
+          <h2>Heading 1</h2>
+          Lorem ipsum dolor sit amet copident accusantium dicta dolore neque.
+        </div>
+        <div class="col-md-3 green">
+          <h2>Heading 2</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae totam
+          quia odit?
+        </div>
+        <div class="col-md-8 pink">
+          <h2>Heading 3</h2>
+          Lgnissimos provident accusantium dicta dolore neque.
+        </div>
+        <div class="col-md-2 orange">
+          <h2>Heading 1</h2>
+          Lorem ipsum dolor sit amet copident accusantium dicta dolore neque.
+        </div>
+        <div class="col-md-5 green">
+          <h2>Heading 2</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae atque
+          ratione facilis assumenda quas dee totam quia odit?
+        </div>
+        <div class="col-md-7 pink">
+          <h2>Heading 3</h2>
+          Lgnissimos provident accusantium dicta dolore neque.
+        </div>
+      </div>
+    </div>
+    <!-- Align content with break points  -->
+    <br /><br />
+    <div class="container">
+      <div class="row align-content-lg-start" style="height: 600px">
+        <div class="col-md-4 orange">
+          <h2>Heading 1</h2>
+          Lorem ipsum dolor sit amet copident accusantium dicta dolore neque.
+        </div>
+        <div class="col-md-3 green">
+          <h2>Heading 2</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae totam
+          quia odit?
+        </div>
+        <div class="col-md-8 pink">
+          <h2>Heading 3</h2>
+          Lgnissimos provident accusantium dicta dolore neque.
+        </div>
+        <div class="col-md-2 orange">
+          <h2>Heading 1</h2>
+          Lorem ipsum dolor sit amet copident accusantium dicta dolore neque.
+        </div>
+        <div class="col-md-5 green">
+          <h2>Heading 2</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae atque
+          ratione facilis assumenda quas dee totam quia odit?
+        </div>
+        <div class="col-md-7 pink">
+          <h2>Heading 3</h2>
+          Lgnissimos provident accusantium dicta dolore neque.
+        </div>
+      </div>
+    </div>
+    <!-- Align Self Classes-->
+    <br /><br />
+    <div class="container">
+      <div class="row" style="height: 400px;">
+        <div class="col-md-3 orange align-self-strach">
+          Lorem ipsum dolor sit amet consectetur adipisicing elim dicta
+          dolore neque.
+        </div>
+        <div class="col-md-3 green align-self-start">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitit?
+        </div>
+        <div class=" align-self-end col-md-3 orange">
+          Lorem ipsum dolor sit amet consectetur adent accusantium dicta
+          dolore neque.
+        </div>
+      </div>
+    </div>
+    <!-- Align Self Classes with break points  -->
+    <br /><br />
+    <div class="container">
+      <div class="row" style="height: 400px;">
+        <div class="col-md-3 orange align-self-md-strach">
+          Lorem ipsum dolor sit amet consectetur adipisicing elim dicta
+          dolore neque.
+        </div>
+        <div class="col-md-3 green align-self-md-start">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitit?
+        </div>
+        <div class=" align-self-md-end col-md-3 orange">
+          Lorem ipsum dolor sit amet consectetur adent accusantium dicta
+          dolore neque.
+        </div>
+      </div>
+    </div>
+    <br /><br />
+        <!-- Flex Directions Classes  -->
+    <div class="container">
+      <div class="row flex-wrap-reverse">
+        <div class="col-md-3 pink">
+          <h2>Heading 1</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+        <div class="col-md-3 green">
+          <h2>Heading 2</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae atque
+          ratione facilis assumenda quas dee totam quia odit?
+        </div>
+        <div class="col-md-3 orange">
+          <h2>Heading 3</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+        <div class="col-md-3 blue">
+          <h2>Heading 4</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+        <div class="col-md-3 ">
+          <h2>Heading 5</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat id
+          aperiam nam doloremque amet dignissimos provident accusantium dicta
+          dolore neque.
+        </div>
+      </div>
+    </div>
+    <!-- Display Classes  -->
+    <br><br>
+    <div class="container">
+      <div class="p-3 green d-inline-block">
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="p-3 pink d-inline-block">
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+        <!-- Display Classes with break points  -->
+        <br><br>
+        <div class="container">
+          <div class="p-3 green d-lg-inline-block">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="p-3 pink d-lg-inline-block">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+    <br><br>
   </body>
 </html>
